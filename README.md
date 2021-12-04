@@ -3,8 +3,13 @@ In this project, we created a pipeline using Apache Airflow to extract data from
 
 The main idea of this project is to extract data from twitter, such as tweets, retweets and likes. The purpose of extracting the data is to create an interaction analysis using Machine Learning to evaluate how positive are the tweets involving @AluraOnline on Twitter. 
 
-Alura is an educational platform about technology. For further information about Alura, access their website: [Alura](https://www.alura.com.br
+Alura is a Brazilian educational platform about technology. For further information about Alura, access their website: [Alura.](https://www.alura.com.br
 )
+
+As a solution, we proposed:
+- Coding in Python.
+- Export data to a JSON file. 
+- Put the file in a database. 
 
 # Connecting to Twitter
 
