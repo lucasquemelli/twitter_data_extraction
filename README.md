@@ -26,5 +26,7 @@ In order to match the requirements above, Apache Airflow was chosen to perform t
 
 # 2. Connecting to Twitter
 
+Firstly, we must verify if the data source is accessible. 
+
 ![image](https://user-images.githubusercontent.com/81119854/144726941-83933b14-4b3d-4433-8ed3-5ef47210aa25.png)
 
