@@ -1,5 +1,5 @@
 # twitter_data_extraction
-# Problem Description
+# 1. Problem Description
 
 In this project, we created a **pipeline** using **Apache Airflow** to extract data from **Twitter** in order to analyze their **interactions**.
 
@@ -13,9 +13,17 @@ As a solution, we proposed:
 - Export data to a JSON file. 
 - Put the file in a database.
 
+Additionally, as we want to load more and more data, we must match the following requirements:
+
+1. Scaling up
+2. Automation
+3. Monitoring
+4. Maintenance
+5. Expansion
+6. Integration
 
 
-# Connecting to Twitter
+# 2. Connecting to Twitter
 
 ![image](https://user-images.githubusercontent.com/81119854/144726941-83933b14-4b3d-4433-8ed3-5ef47210aa25.png)
 
