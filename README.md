@@ -3,7 +3,7 @@
 
 In this project, we created a **pipeline** using **Apache Airflow** to extract data from **Twitter** in order to analyze their **interactions**.
 
-The main idea of this project is to extract data from twitter, such as tweets, retweets and likes. The purpose of extracting the data is to create an interaction analysis using Machine Learning to evaluate how positive are the tweets involving @AluraOnline on Twitter. 
+The main idea of this project is to extract data from Twitter, such as tweets, retweets and likes. The purpose of extracting the data is to create an interaction analysis using Machine Learning to evaluate how positive are the tweets involving @AluraOnline on Twitter. 
 
 Alura is a Brazilian educational platform about technology. For further information about Alura, access their website: [Alura.](https://www.alura.com.br
 )
@@ -19,8 +19,8 @@ Additionally, as we want to load more and more data, we must match the following
 2. **Automation:** a platform which allows the automation of each work.
 3. **Monitoring:** work monitoring, logs manegement, and warnings.
 4. **Maintenance:** low maintenance need and short period of time spent on tasks. 
-5. **Expansion:** 
-6. **Integration:**
+5. **Expansion:** ready-to-expand to further data sources such as other Twitter or Facebook accounts, and also other databases or files. 
+6. **Integration:** a platform which allows the integration of new members to the data engineers team as it increases. 
 
 In order to match the requirements above, Apache Airflow was chosen to perform the tasks. 
 
