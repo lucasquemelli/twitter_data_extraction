@@ -30,7 +30,7 @@ Firstly, we must certify that the data source is accessible. To do that, initial
 
 Then, we extracted the data using an API free version made available by Twitter. We made some changes to the API and its final version is in *recent_search.py* file. 
 
-The final result may be seen in the screen shot below. Thus, we certified that the data source is accessible. 
+The final result may be seen in the screenshot below. Thus, we certified that the data source is accessible. 
 
 ![image](https://user-images.githubusercontent.com/81119854/144726941-83933b14-4b3d-4433-8ed3-5ef47210aa25.png)
 
