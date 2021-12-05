@@ -15,13 +15,14 @@ As a solution, we proposed:
 
 Additionally, as we want to load more and more data, we must match the following requirements:
 
-1. Scaling up
-2. Automation
-3. Monitoring
-4. Maintenance
-5. Expansion
-6. Integration
+1. **Scaling up:** addition of more intelligence (processing power) and memory (storage capacity) to deal with big data.
+2. **Automation:** a platform which allows the automation of each work.
+3. **Monitoring:** work monitoring, logs manegement, and warnings.
+4. **Maintenance:** low maintenance need and short period of time spent on tasks. 
+5. **Expansion:** 
+6. **Integration:**
 
+In order to match the requirements above, Apache Airflow was chosen to perform the tasks. 
 
 # 2. Connecting to Twitter
 
