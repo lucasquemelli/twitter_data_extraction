@@ -1,6 +1,6 @@
 # twitter_data_extraction
 
-![image](https://user-images.githubusercontent.com/81119854/144729803-43d738ab-fc1a-4dcb-8c6f-fa085cff82fd.png)
+<code><img width="100%" src="https://user-images.githubusercontent.com/81119854/144729803-43d738ab-fc1a-4dcb-8c6f-fa085cff82fd.png"></code>
 
 # 1. Problem Description
 
