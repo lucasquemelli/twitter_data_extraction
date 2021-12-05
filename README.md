@@ -1,4 +1,7 @@
 # twitter_data_extraction
+
+![image](https://user-images.githubusercontent.com/81119854/144729803-43d738ab-fc1a-4dcb-8c6f-fa085cff82fd.png)
+
 # 1. Problem Description
 
 In this project, we created a **pipeline** using **Apache Airflow** to extract data from **Twitter** in order to analyze their **interactions**.
