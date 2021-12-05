@@ -26,7 +26,7 @@ In order to match the requirements above, Apache Airflow was chosen to perform t
 
 # 2. Connecting to Twitter
 
-Firstly, we must certify that the data source is accessible. Thus, we accessed the [Twitter Developer Platform](https://developer.twitter.com/en) and registered a developer account associated to my personal account (@LucasQuemelli).
+Firstly, we must certify that the data source is accessible. Thus, I accessed the [Twitter Developer Platform](https://developer.twitter.com/en) and registered a developer account associated to my personal account (@LucasQuemelli).
 
 ![image](https://user-images.githubusercontent.com/81119854/144726941-83933b14-4b3d-4433-8ed3-5ef47210aa25.png)
 
