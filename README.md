@@ -62,3 +62,7 @@ Each step in a DAG is executed by an operator. After execute a task by an operat
 A commom database would not match theses requirements. Therefore, we created a Data Lake. Data Lake is a distributed file system which uses distributed tools to store and process data. 
 
 The [operator](https://github.com/lucasquemelli/twitter_data_extraction/blob/main/twitter_operator.py) and the [Data Lake](https://github.com/lucasquemelli/twitter_data_extraction/tree/main/datalake/twitter_aluraonline) - for two days - created may be accessed by the link. 
+
+# 6. Creating plugins
+
+To store the classes we used in this project, we created plugins. 
