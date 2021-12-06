@@ -57,8 +57,8 @@ The hook created is in the file [*twitter_hook.py*](https://github.com/lucasquem
 
 # 5. Creating operators connected to hooks and exporting them to a Data Lake
 
-Each step in a DAG is executed by an operator. After execute a task by an operator, we must store the data we created. We did not use a database, since to work with big data we have to consider Volume, Velocity and Variety. A commom database would not match theses requirements. Therefore, we created a Data Lake. 
+Each step in a DAG is executed by an operator. After execute a task by an operator, we must store the data we created. We did not use a database, since to work with big data we have to consider Volume, Velocity and Variety. 
 
-Data Lake is an distributed file system which uses distributed tools to store and process data. 
+A commom database would not match theses requirements. Therefore, we created a Data Lake. Data Lake is a distributed file system which uses distributed tools to store and process data. 
 
 The [operator](https://github.com/lucasquemelli/twitter_data_extraction/blob/main/twitter_operator.py) and the [Data Lake](https://github.com/lucasquemelli/twitter_data_extraction/tree/main/datalake/twitter_aluraonline/extract_date%3D2021-12-06) created may be accessed by the link. 
