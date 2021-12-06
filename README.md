@@ -47,4 +47,10 @@ The connection data are saved in the Airflow database. Below, we may see step by
 
 Notice that the box containing 'token' is not fully displayed. The other part of the box is filled with the bearer token provided by Twitter Developer. 
 
-Next step is to use this connection by a hook. 
+Next step is to use this connection by a hook.
+
+# 4. Creating a hook
+
+A hook is an interface to communicate DAGs with external sources/tools, such as Twitter API. We use hooks to create methods to interact with a source/tool and also to use connections for authentication. 
+
+The hook created is in the file *twitter_hook.py*. The next step is to use this hook in the operators. 
