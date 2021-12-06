@@ -51,7 +51,7 @@ class TwitterOperator(BaseOperator):
 
 
 if __name__ == "__main__":
-    with DAG(dag_id="TwitterTest", start_date=datetime.now() - timedelta(days=1),) as dag:
+    with DAG(dag_id="TwitterTest", start_date=datetime.now()) as dag:
         to = TwitterOperator(
             query="AluraOnline",
             file_path=join(
@@ -61,5 +61,5 @@ if __name__ == "__main__":
                 "AluraOnline_{{ ds_nodash }}.json"),
             task_id="test_run"
         )
-        ti = TaskInstance(task=to, execution_date=datetime.now())
+        ti = TaskInstance(task=to, execution_date=datetime.now() - timedelta(days=1))
         ti.run()
