@@ -57,4 +57,4 @@ The hook created is in the file [*twitter_hook.py*](https://github.com/lucasquem
 
 # 5. Creating operators connected to hooks and exporting them to a Data Lake
 
-Each step in a DAG is executed by an operator. 
+Each step in a DAG is executed by an operator. The [operator]() and the [Data Lake]() created may be accessed by the link. 
