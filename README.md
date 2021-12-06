@@ -54,3 +54,5 @@ Next step is to use this connection by a hook.
 A hook is an interface to communicate DAGs with external sources/tools, such as Twitter API. We use hooks to create methods to interact with a source/tool and also to use connections for authentication. 
 
 The hook created is in the file [*twitter_hook.py*](https://github.com/lucasquemelli/twitter_data_extraction/blob/main/twitter_hook.py). The next step is to use this hook in the operators. 
+
+# 5. Creating operators connetcted to hooks
