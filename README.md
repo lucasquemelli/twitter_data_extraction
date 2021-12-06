@@ -31,7 +31,7 @@ In order to match the requirements above, Apache Airflow was chosen to perform t
 
 Firstly, we must certify that the data source is accessible. To do that, initially, I accessed the [Twitter Developer Platform](https://developer.twitter.com/en) and registered a developer account associated to my personal account (@LucasQuemelli).
 
-Then, we extracted the data using an API free version made available by Twitter. We made some changes to the API and its final version is in *recent_search.py* file. 
+Then, we extracted the data using an API free version made available by Twitter. We made some changes to the API and its final version is in [*recent_search.py*](https://github.com/lucasquemelli/twitter_data_extraction/blob/main/recent_search.py) file. 
 
 The final result may be seen in the screenshot below. Thus, we certified that the data source is accessible. 
 
@@ -53,4 +53,4 @@ Next step is to use this connection by a hook.
 
 A hook is an interface to communicate DAGs with external sources/tools, such as Twitter API. We use hooks to create methods to interact with a source/tool and also to use connections for authentication. 
 
-The hook created is in the file *twitter_hook.py*. The next step is to use this hook in the operators. 
+The hook created is in the file [*twitter_hook.py*](https://github.com/lucasquemelli/twitter_data_extraction/blob/main/twitter_hook.py). The next step is to use this hook in the operators. 
