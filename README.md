@@ -55,4 +55,6 @@ A hook is an interface to communicate DAGs with external sources/tools, such as 
 
 The hook created is in the file [*twitter_hook.py*](https://github.com/lucasquemelli/twitter_data_extraction/blob/main/twitter_hook.py). The next step is to use this hook in the operators. 
 
-# 5. Creating operators connetcted to hooks
+# 5. Creating operators connected to hooks and exporting them to a Data Lake
+
+Each step in a DAG is executed by an operator. 
