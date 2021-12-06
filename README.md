@@ -38,3 +38,5 @@ The final result may be seen in the screenshot below. Thus, we certified that th
 ![image](https://user-images.githubusercontent.com/81119854/144726941-83933b14-4b3d-4433-8ed3-5ef47210aa25.png)
 
 # 3. Creating a connection
+
+![image](https://user-images.githubusercontent.com/81119854/144848381-47b1035c-a8dc-4eec-a20b-f1b9218ce23e.png)
