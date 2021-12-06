@@ -39,6 +39,6 @@ The final result may be seen in the screenshot below. Thus, we certified that th
 
 # 3. Creating a connection
 
-Airflow allows us to interact with data sources and external tools such as Twitter API, data bases and cloud services. For each interaction, we need a safe storage.
+Airflow allows us to interact with data sources and external tools such as Twitter API, databases and cloud services. For each interaction, we need a safe storage local for the data that comes from the connection. It may be user and password for a database or also a token for an API. The connection data are saved in the Airflow database. 
 
 ![image](https://user-images.githubusercontent.com/81119854/144848381-47b1035c-a8dc-4eec-a20b-f1b9218ce23e.png)
