@@ -66,3 +66,5 @@ The [operator](https://github.com/lucasquemelli/twitter_data_extraction/blob/mai
 # 6. Creating plugins
 
 To store the classes we used in this project, we created plugins. All classes we used may be imported from operators. 
+
+The plugins are found in the file [*airflow_plugin.py*](https://github.com/lucasquemelli/twitter_data_extraction/blob/main/airflow_plugin.py). In order to test the plugins, we created a [DAG](https://github.com/lucasquemelli/twitter_data_extraction/blob/main/twitter_dag.py) and we added into it the operators. 
