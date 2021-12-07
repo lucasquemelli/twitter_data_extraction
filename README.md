@@ -65,4 +65,4 @@ The [operator](https://github.com/lucasquemelli/twitter_data_extraction/blob/mai
 
 # 6. Creating plugins
 
-To store the classes we used in this project, we created plugins. 
+To store the classes we used in this project, we created plugins. All classes we used may be imported from operators. 
