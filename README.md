@@ -77,6 +77,6 @@ The details of the DAG may be seen as follows:
 
 ![image](https://user-images.githubusercontent.com/81119854/145033627-59167ab8-926d-4505-8eaf-f555ca7770d2.png)
 
-The next steps are to transform the data using Apache Spark. 
+The next steps is to transform the data using Apache Spark. 
 
 # 7. Reading data from Data Lake
