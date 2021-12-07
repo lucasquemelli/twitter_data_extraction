@@ -1,3 +1,6 @@
+import sys
+sys.path.append("[/home/lucasquemelli/datapipeline/airflow/plugins]")
+
 import json
 from datetime import datetime, timedelta
 from pathlib import Path
@@ -5,7 +8,8 @@ from os.path import join
 
 from airflow.models import DAG, BaseOperator, TaskInstance
 from airflow.utils.decorators import apply_defaults
-from twitter_hook import TwitterHook
+
+from hooks.twitter_hook import TwitterHook
 
 class TwitterOperator(BaseOperator):
 
