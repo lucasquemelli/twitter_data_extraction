@@ -81,4 +81,7 @@ The next steps is to transform the data using Apache Spark.
 
 # 7. Reading raw data from the Data Lake
 
-Apache Spark is a tool that allows distributed processing in hundreds of computers or also only one. Using Spark, we may access the data lake we created and read the tables as databases. 
+Apache Spark is a tool that allows distributed processing in hundreds of computers or also only one. Using Spark, we may access the data lake we created and read the tables as databases.
+
+![image](https://user-images.githubusercontent.com/81119854/145113912-25f90c7c-84c2-4809-8e27-977fbca225e8.png)
+
