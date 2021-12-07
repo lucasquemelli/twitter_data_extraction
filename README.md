@@ -83,5 +83,13 @@ The next steps is to transform the data using Apache Spark.
 
 Apache Spark is a tool that allows distributed processing in hundreds of computers or also only one. Using Spark, we may access the data lake we created and read the tables as databases.
 
+The codes from this section are in the [*transformation.py*]() file. 
+
+Dataframe schema may be seen below, where **(1) |-- data:** tweet informations; **(2) |-- includes:** user informations; **(3) |-- meta:** informations about each printed page; **(4) |--** extract_date: extraction dates. 
+
 ![image](https://user-images.githubusercontent.com/81119854/145113912-25f90c7c-84c2-4809-8e27-977fbca225e8.png)
+
+
+
+![image](https://user-images.githubusercontent.com/81119854/145115449-33d97fd9-5100-4c1a-8c16-a11d30b09685.png)
 
