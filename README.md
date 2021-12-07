@@ -89,7 +89,7 @@ Dataframe schema may be seen below, where **(1) |-- data:** tweet informations; 
 
 ![image](https://user-images.githubusercontent.com/81119854/145113912-25f90c7c-84c2-4809-8e27-977fbca225e8.png)
 
-
+Dataframe lines ("df.show()") may be seen below:
 
 ![image](https://user-images.githubusercontent.com/81119854/145115449-33d97fd9-5100-4c1a-8c16-a11d30b09685.png)
 
