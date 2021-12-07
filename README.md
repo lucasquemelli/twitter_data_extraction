@@ -31,7 +31,7 @@ In order to match the requirements above, Apache Airflow was chosen to perform t
 
 Firstly, we must certify that the data source is accessible. To do that, initially, I accessed the [Twitter Developer Platform](https://developer.twitter.com/en) and registered a developer account associated to my personal account (@LucasQuemelli).
 
-Then, we extracted the data using an API free version made available by Twitter. We made some changes to the API and its final version is in [*recent_search.py*](https://github.com/lucasquemelli/twitter_data_extraction/blob/main/recent_search.py) file. 
+Then, we extracted the data using an API free version made available by Twitter. We made some changes to the API and its final version is in [*recent_search.py*](https://github.com/lucasquemelli/twitter_data_extraction/blob/main/Airflow/recent_search.py) file. 
 
 The final result may be seen in the screenshot below. Thus, we certified that the data source is accessible. 
 
@@ -53,7 +53,7 @@ Next step is to use this connection by a hook.
 
 A hook is an interface to communicate DAGs with external sources/tools, such as Twitter API. We use hooks to create methods to interact with a source/tool and also to use connections for authentication. 
 
-The hook created is in the file [*twitter_hook.py*](https://github.com/lucasquemelli/twitter_data_extraction/blob/main/twitter_hook.py). The next step is to use this hook in the operators. 
+The hook created is in the file [*twitter_hook.py*](https://github.com/lucasquemelli/twitter_data_extraction/blob/main/Airflow/twitter_hook.py). The next step is to use this hook in the operators. 
 
 # 5. Creating operators connected to hooks and exporting them to a Data Lake
 
@@ -61,13 +61,13 @@ Each step in a DAG is executed by an operator. After execute a task by an operat
 
 A commom database would not match theses requirements. Therefore, we created a Data Lake. Data Lake is a distributed file system which uses distributed tools to store and process data. 
 
-The [operator](https://github.com/lucasquemelli/twitter_data_extraction/blob/main/twitter_operator.py) and the [Data Lake](https://github.com/lucasquemelli/twitter_data_extraction/tree/main/datalake/twitter_aluraonline) - for two days - created may be accessed by the link. 
+The [operator](https://github.com/lucasquemelli/twitter_data_extraction/blob/main/Airflow/twitter_operator.py) and the [Data Lake](https://github.com/lucasquemelli/twitter_data_extraction/tree/main/datalake/twitter_aluraonline) - for two days - created may be accessed by the link. 
 
 # 6. Creating plugins
 
 To store the classes we used in this project, we created plugins. All classes we used may be imported from operators. 
 
-The plugins are found in the file [*airflow_plugin.py*](https://github.com/lucasquemelli/twitter_data_extraction/blob/main/airflow_plugin.py). In order to test the plugins, we created a [DAG](https://github.com/lucasquemelli/twitter_data_extraction/blob/main/twitter_dag.py) and we added the operators into it. 
+The plugins are found in the file [*airflow_plugin.py*](https://github.com/lucasquemelli/twitter_data_extraction/blob/main/Airflow/airflow_plugin.py). In order to test the plugins, we created a [DAG](https://github.com/lucasquemelli/twitter_data_extraction/blob/main/Airflow/twitter_dag.py) and we added the operators into it. 
 
 The DAG was successfully added into Airflow DAGs. It is the last DAG in the image below:
 
