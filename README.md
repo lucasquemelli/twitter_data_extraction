@@ -4,7 +4,7 @@
 
 # 1. Problem Description
 
-In this project, we created a **pipeline** using **Apache Airflow** to extract data from **Twitter** in order to analyze their **interactions**.
+In this project, we created a **pipeline** using **Apache Airflow** to extract data from **Twitter** and hence **Apache Spark** to transform the data. The purpose was to analyze Twitter user **interactions**. The chosen pipeline was **ELT** format, since we want to save raw data before transforming them - to avoid errors.
 
 The main idea of this project is to extract data from Twitter, such as tweets, retweets and likes. The purpose of extracting the data is to create an interaction analysis using Machine Learning to evaluate how positive are the tweets involving @AluraOnline on Twitter. 
 
@@ -65,4 +65,31 @@ The [operator](https://github.com/lucasquemelli/twitter_data_extraction/blob/mai
 
 # 6. Creating plugins
 
-To store the classes we used in this project, we created plugins. 
+To store the classes we used in this project, we created plugins. All classes we used may be imported from operators. 
+
+The plugins are found in the file [*airflow_plugin.py*](https://github.com/lucasquemelli/twitter_data_extraction/blob/main/airflow_plugin.py). In order to test the plugins, we created a [DAG](https://github.com/lucasquemelli/twitter_data_extraction/blob/main/twitter_dag.py) and we added the operators into it. 
+
+The DAG was successfully added into Airflow DAGs. It is the last DAG in the image below:
+
+![image](https://user-images.githubusercontent.com/81119854/145033482-61fdf6f1-ad91-4c3d-a67b-5796634dcdbb.png)
+
+The details of the DAG may be seen as follows:
+
+![image](https://user-images.githubusercontent.com/81119854/145033627-59167ab8-926d-4505-8eaf-f555ca7770d2.png)
+
+The next steps is to transform the data using Apache Spark. 
+
+# 7. Reading raw data from the Data Lake
+
+Apache Spark is a tool that allows distributed processing in hundreds of computers or also only one. Using Spark, we may access the data lake we created and read the tables as databases.
+
+The codes from this section are in the [*transformation.py*]() file. 
+
+Dataframe schema may be seen below, where **(1) |-- data:** tweet informations; **(2) |-- includes:** user informations; **(3) |-- meta:** informations about each printed page; **(4) |--** extract_date: extraction dates. 
+
+![image](https://user-images.githubusercontent.com/81119854/145113912-25f90c7c-84c2-4809-8e27-977fbca225e8.png)
+
+Dataframe lines - "df.show()" - may be seen below:
+
+![image](https://user-images.githubusercontent.com/81119854/145115449-33d97fd9-5100-4c1a-8c16-a11d30b09685.png)
+
