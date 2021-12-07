@@ -69,7 +69,7 @@ To store the classes we used in this project, we created plugins. All classes we
 
 The plugins are found in the file [*airflow_plugin.py*](https://github.com/lucasquemelli/twitter_data_extraction/blob/main/airflow_plugin.py). In order to test the plugins, we created a [DAG](https://github.com/lucasquemelli/twitter_data_extraction/blob/main/twitter_dag.py) and we added the operators into it. 
 
-The DAG was successfully added into Airflow DAGs:
+The DAG was successfully added into Airflow DAGs. It is the last DAG in the image below:
 
 ![image](https://user-images.githubusercontent.com/81119854/145033482-61fdf6f1-ad91-4c3d-a67b-5796634dcdbb.png)
 
