@@ -4,7 +4,7 @@
 
 # 1. Problem Description
 
-In this project, we created a **pipeline** using **Apache Airflow** to extract data from **Twitter** in order to analyze their **interactions**.
+In this project, we created a **pipeline** using **Apache Airflow** to extract data from **Twitter** in order to analyze their **interactions**. The chosen pipeline was ELT format, since we want to save original data before transforming them - to avoid errors. 
 
 The main idea of this project is to extract data from Twitter, such as tweets, retweets and likes. The purpose of extracting the data is to create an interaction analysis using Machine Learning to evaluate how positive are the tweets involving @AluraOnline on Twitter. 
 
@@ -78,3 +78,5 @@ The details of the DAG may be seen as follows:
 ![image](https://user-images.githubusercontent.com/81119854/145033627-59167ab8-926d-4505-8eaf-f555ca7770d2.png)
 
 The next steps are to transform the data using Apache Spark. 
+
+# 7. Reading data from Data Lake
