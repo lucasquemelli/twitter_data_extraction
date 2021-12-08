@@ -31,7 +31,7 @@ In order to match the requirements above, Apache Airflow was chosen to perform t
 
 Firstly, we must certify that the data source is accessible. To do that, initially, I accessed the [Twitter Developer Platform](https://developer.twitter.com/en) and registered a developer account associated to my personal account (@LucasQuemelli).
 
-Then, we extracted the data using an API free version made available by Twitter. We made some changes to the API and its final version is in [*recent_search.py*](https://github.com/lucasquemelli/twitter_data_extraction/blob/main/Airflow/recent_search.py) file. 
+Then, we extracted the data using an API free version made available by Twitter. We made some changes to the API and its final version is in [*recent_search.py*](https://github.com/lucasquemelli/twitter_data_extraction/blob/main/recent_search.py) file. 
 
 The final result may be seen in the screenshot below. Thus, we certified that the data source is accessible. 
 
