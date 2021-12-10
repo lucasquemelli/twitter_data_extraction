@@ -118,3 +118,9 @@ We wrote a file without headers. But if we want a file with headers instead, we 
 The result of the commands above (up to line 20) is below:
 
 ![image](https://user-images.githubusercontent.com/81119854/145612017-70f9c654-5fba-4b43-9e22-67c021b6a67c.png)
+
+2 or more partitions may be done if we export a too large file. To know how many partitions will be done before exporting the file, we may use:
+
+![image](https://user-images.githubusercontent.com/81119854/145612644-4a724e98-827e-468c-af0e-aa1db822fe61.png)
+
+By the image above, we concluded that only 1 file was generated. 
