@@ -123,4 +123,7 @@ The result of the commands above (up to line 20) is below:
 
 ![image](https://user-images.githubusercontent.com/81119854/145612644-4a724e98-827e-468c-af0e-aa1db822fe61.png)
 
-By the image above, we concluded that only 1 file was generated. 
+By the image above, we concluded that only 1 file was generated. Yet, if we wish to make repartitions, we may use the *repartition* function and add into it the number of repartitions.
+
+![image](https://user-images.githubusercontent.com/81119854/145619015-9a37660d-2f9e-4d7d-9019-1a5169220757.png)
+
