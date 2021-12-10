@@ -127,3 +127,6 @@ By the image above, we concluded that only 1 file was generated. Yet, if we wish
 
 ![image](https://user-images.githubusercontent.com/81119854/145619015-9a37660d-2f9e-4d7d-9019-1a5169220757.png)
 
+If we want to join partitions into larger file (s), we may use the *coalesce* function, by doing this:
+
+![image](https://user-images.githubusercontent.com/81119854/145620344-26309b4e-9861-4d13-9aaa-2d74bc042f1b.png)
