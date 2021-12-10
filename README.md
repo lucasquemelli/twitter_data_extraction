@@ -95,3 +95,10 @@ Dataframe lines - df.show() - may be seen below:
 
 # 8. Transforming and exporting data to the Data Lake
 
+Firstly, we read the path file:
+
+![image](https://user-images.githubusercontent.com/81119854/145580437-eb99163d-c40e-43a8-a099-817d93f6f66e.png)
+
+Thus, we could see that the dataframe is not in the flat format:
+
+![image](https://user-images.githubusercontent.com/81119854/145580671-ed44a0ba-0a6d-4e53-b372-b5b11d46c4a7.png)
