@@ -106,3 +106,7 @@ Thus, we could see that the dataframe is not in the flat format:
 Then, we transformed the "data" field to the flat format by exploding it:
 
 ![image](https://user-images.githubusercontent.com/81119854/145581540-dd867dc7-5ad1-40cb-81c3-8fde4094b6a7.png)
+
+Finally, we wrote the transformed "data" field (tweet_df) to the Data Lake choosing a csv format and creating a new folder named "export":
+
+![image](https://user-images.githubusercontent.com/81119854/145582846-63624148-37ee-49a6-9868-b00dd44c5da4.png)
