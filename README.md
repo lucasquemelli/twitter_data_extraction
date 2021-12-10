@@ -133,6 +133,6 @@ If we want to join partitions into larger file (s), we may use the *coalesce* fu
 
 Exported partitions influence when the files are read once again. To export files with partitions, we need to find the field that will result in a good cardinality - which means low number of groups and low amount of lines for each group.
 
-Because of that, we may not choose the "id" field, since there is a unique id for each tweet. Therefore, we chose the "created_at" field. Thus, to test the group cardinality, we convert timestamp to date, group the results by creation date, count the number of elements per creation date and display the selection:
+Because of that, we may not choose the "id" field, since there is a unique id for each tweet. Therefore, we chose the "created_at" field. Thus, to test the group cardinality, we converted timestamp to date, grouped the results by creation date, counted the number of elements per creation date and displayed the selection:
 
 ![image](https://user-images.githubusercontent.com/81119854/145626843-5fe15722-2f15-41fd-937c-f96c9acbd384.png)
