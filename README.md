@@ -93,3 +93,5 @@ Dataframe lines - df.show() - may be seen below:
 
 ![image](https://user-images.githubusercontent.com/81119854/145115449-33d97fd9-5100-4c1a-8c16-a11d30b09685.png)
 
+# 8. Transforming and exporting data to the Data Lake
+
