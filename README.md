@@ -110,3 +110,11 @@ Then, we transformed the "data" field to the flat format by exploding it:
 Finally, we wrote the transformed "data" field (tweet_df) to the Data Lake choosing a csv format and creating a new folder named "export":
 
 ![image](https://user-images.githubusercontent.com/81119854/145582846-63624148-37ee-49a6-9868-b00dd44c5da4.png)
+
+We wrote a file without headers. But if we want a file with headers instead, we may do:
+
+![image](https://user-images.githubusercontent.com/81119854/145611826-2f0f9e30-5e39-4b03-b528-cb0c833fcd03.png)
+
+The result of the commands above (up to line 20) is below:
+
+![image](https://user-images.githubusercontent.com/81119854/145612017-70f9c654-5fba-4b43-9e22-67c021b6a67c.png)
