@@ -102,3 +102,7 @@ Firstly, we read the path file:
 Thus, we could see that the dataframe is not in the flat format:
 
 ![image](https://user-images.githubusercontent.com/81119854/145580671-ed44a0ba-0a6d-4e53-b372-b5b11d46c4a7.png)
+
+Then, we transformed the "data" field to the flat format by exploding it:
+
+![image](https://user-images.githubusercontent.com/81119854/145581540-dd867dc7-5ad1-40cb-81c3-8fde4094b6a7.png)
