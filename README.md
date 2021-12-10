@@ -136,3 +136,15 @@ Exported partitions influence when the files are read once again. To export file
 Because of that, we may not choose the "id" field, since there is a unique id for each tweet. Therefore, we chose the "created_at" field. Thus, to test the group cardinality, we converted timestamp to date, grouped the results by creation date, counted the number of elements per creation date and displayed the selection:
 
 ![image](https://user-images.githubusercontent.com/81119854/145626843-5fe15722-2f15-41fd-937c-f96c9acbd384.png)
+
+From the image above, we may notice that the minimum number of lines is 4 and the maximum is 48. That represents a good cardinality. So we must go on and export these files. 
+
+In order to export the files, we created a new dataframe and a new column using *withColumn* function. Then, we created one folder for each tweet creation date:
+
+![image](https://user-images.githubusercontent.com/81119854/145652989-76501f3a-7684-433f-943f-65f248508227.png)
+
+The result of the commands above is:
+
+![image](https://user-images.githubusercontent.com/81119854/145653023-3b03b7a5-c92c-4531-aec6-ca43c37be1e5.png)
+
+
