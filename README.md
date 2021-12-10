@@ -139,7 +139,7 @@ Because of that, we may not choose the "id" field, since there is a unique id fo
 
 From the image above, we may notice that the minimum number of lines is 4 and the maximum is 48. That represents a good cardinality. So we must go on and export these files. 
 
-In order to export the files, we created a new dataframe and a new column using *withColumn* function. Then, we created one folder for each tweet creation date:
+In order to export the files, we created a new dataframe named *export_df*, a new column named *creation_date* using *withColumn* function, and a new file for each partition - which is the number of creation dates. Then, we created one folder for each creation date by using *partitionBy* and saved the files in json:
 
 ![image](https://user-images.githubusercontent.com/81119854/145652989-76501f3a-7684-433f-943f-65f248508227.png)
 
