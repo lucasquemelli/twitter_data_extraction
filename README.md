@@ -147,4 +147,7 @@ The result of the commands above is:
 
 ![image](https://user-images.githubusercontent.com/81119854/145653023-3b03b7a5-c92c-4531-aec6-ca43c37be1e5.png)
 
+To assure that we will have a good reading when read it back, we filtered by partition field and created a excution plan (*explain* function) to spark seek for the data:
+
+![image](https://user-images.githubusercontent.com/81119854/145681322-0baaca26-922a-4872-b078-f0b5c06e797f.png)
 
