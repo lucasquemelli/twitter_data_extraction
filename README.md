@@ -157,7 +157,7 @@ It means Spark will not go through each partition to filter the data, it will ju
 
 When we export data, we must assure that we are using partitions that will be able to be filtered in order to meake easier the dataframe reading. 
 
-Finally, we created the medal format to make the reading easier. Bronze is the folder with the raw data and silver contains the transformed data. 
+Finally, we created the *Medallion* to make the reading easier. Bronze is the folder with the raw data and silver contains the transformed data. 
 
 ![image](https://user-images.githubusercontent.com/81119854/145682128-b87b56c0-045f-4521-9b4a-c2444fee57ec.png)
 
