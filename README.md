@@ -161,4 +161,7 @@ Finally, we created the *Medallion* to make the reading easier. Bronze is the fo
 
 ![image](https://user-images.githubusercontent.com/81119854/145682128-b87b56c0-045f-4521-9b4a-c2444fee57ec.png)
 
-The next step is to execute our project using Spark and Airflow. 
+The next step is to execute our project using Spark and store it on the Airflow. 
+
+# 9. Creating work transformation using Spark
+
