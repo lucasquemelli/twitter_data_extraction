@@ -165,3 +165,8 @@ The next step is to execute our project using Spark and store it on the Airflow.
 
 # 9. Creating work transformation using Spark
 
+The final version of the file [*transformation.py*]() may be accessed by the link. The transformation may be confirmed by the creation of the folders required in Spark:
+
+![image](https://user-images.githubusercontent.com/81119854/145690075-57d6e0da-d60a-4114-bd44-d87a603bf3ba.png)
+
+![image](https://user-images.githubusercontent.com/81119854/145690085-683325e9-049e-4cd5-8979-36e7c41b0f7d.png)
