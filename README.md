@@ -151,4 +151,8 @@ To assure that we will have a good reading when read it back, we filtered by par
 
 ![image](https://user-images.githubusercontent.com/81119854/145681322-0baaca26-922a-4872-b078-f0b5c06e797f.png)
 
-In the image above, PartitionFilters displays what Spark will do in order to perform a faster reading. It will use "creation_date" (the partition field we selected) to filter the data that will be read.  It means Spark will not go through each partition to filter the data, it will just go through the partition we chose. 
+In the image above, PartitionFilters displays what Spark will do in order to perform a faster reading. It will use "creation_date" (the partition field we selected) to filter the data that will be read.  
+
+It means Spark will not go through each partition to filter the data, it will just go through the partition we chose. Much less data will be read and the dataframe will be created much faster. 
+
+When we export data, we must assure that we are using partitions that will be able to be filtered in order to meake easier the dataframe reading. 
