@@ -83,8 +83,6 @@ The next step is to transform the data using Apache Spark.
 
 Apache Spark is a tool that allows distributed processing in hundreds of computers or also only one. Using Spark, we may access the data lake we created and read the tables as databases.
 
-The codes from this section are in the [*transformation.py*](https://github.com/lucasquemelli/twitter_data_extraction/blob/main/Spark/transformation.py) file. 
-
 Dataframe schema may be seen below, where **(1) |-- data:** tweet informations; **(2) |-- includes:** user informations; **(3) |-- meta:** informations about each printed page; **(4) |--** extract_date: extraction dates. 
 
 ![image](https://user-images.githubusercontent.com/81119854/145113912-25f90c7c-84c2-4809-8e27-977fbca225e8.png)
@@ -165,7 +163,7 @@ The next step is to execute our project using Spark and store it on the Airflow.
 
 # 9. Creating work transformation using Spark
 
-The final version of the file [*transformation.py*]() may be accessed by the link. The transformation may be confirmed by the creation of the folders required in Spark:
+The final version of the file [*transformation.py*](https://github.com/lucasquemelli/twitter_data_extraction/blob/main/Spark/transformation.py) may be accessed by the link. The transformation may be confirmed by the creation of the folders required in Spark:
 
 ![image](https://user-images.githubusercontent.com/81119854/145690075-57d6e0da-d60a-4114-bd44-d87a603bf3ba.png)
 
