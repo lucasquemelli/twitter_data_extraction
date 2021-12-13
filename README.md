@@ -187,4 +187,7 @@ In the field "Extra" above, we added the Spark folder path.
 
 ![image](https://user-images.githubusercontent.com/81119854/145828786-ac894b18-8553-49f3-93ee-19d61d8c016a.png)
 
+![image](https://user-images.githubusercontent.com/81119854/145829565-a23c15e4-fe5d-4e6e-9ed7-3680130cac74.png)
+
+![image](https://user-images.githubusercontent.com/81119854/145829680-abc1be74-9b8d-44df-b1b1-2227f6c54313.png)
 
