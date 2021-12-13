@@ -171,7 +171,7 @@ This version of the file [*transformation.py*](https://github.com/lucasquemelli/
 
 # 10. Connecting Spark to Airflow
 
-To insert the transformed data by Spark into Airflow, we used the commands found in [](). A screenshot containing the added operator to the DAG is below:
+To insert the transformed data by Spark into Airflow, we used the commands found in [*twitter_dag_final_version.py*](https://github.com/lucasquemelli/twitter_data_extraction/blob/main/Airflow/twitter_dag_final_version.py). A screenshot containing the added operator to the DAG is below:
 
 ![image](https://user-images.githubusercontent.com/81119854/145823961-a4ad8ff3-02f6-4ed9-a5e2-f004cd62462e.png)
 
