@@ -163,8 +163,14 @@ The next step is to execute our project using Spark and store it on the Airflow.
 
 # 9. Creating work transformation using Spark
 
-The final version of the file [*transformation.py*](https://github.com/lucasquemelli/twitter_data_extraction/blob/main/Spark/transformation.py) may be accessed by the link. The transformation may be confirmed by the creation of the folders required in Spark:
+This version of the file [*transformation.py*](https://github.com/lucasquemelli/twitter_data_extraction/blob/main/Spark/transformation.py) may be accessed by the link. The transformation may be confirmed by the creation of the folders required in Spark:
 
 ![image](https://user-images.githubusercontent.com/81119854/145690075-57d6e0da-d60a-4114-bd44-d87a603bf3ba.png)
 
 ![image](https://user-images.githubusercontent.com/81119854/145690085-683325e9-049e-4cd5-8979-36e7c41b0f7d.png)
+
+# 10. Connecting Spark to Airflow
+
+To insert the transformed data by Spark into Airflow, we used the commands found in [](). A screenshot containing the added operator to the DAG is below:
+
+![image](https://user-images.githubusercontent.com/81119854/145823961-a4ad8ff3-02f6-4ed9-a5e2-f004cd62462e.png)
