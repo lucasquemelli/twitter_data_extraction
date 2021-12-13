@@ -174,3 +174,9 @@ This version of the file [*transformation.py*](https://github.com/lucasquemelli/
 To insert the transformed data by Spark into Airflow, we used the commands found in [](). A screenshot containing the added operator to the DAG is below:
 
 ![image](https://user-images.githubusercontent.com/81119854/145823961-a4ad8ff3-02f6-4ed9-a5e2-f004cd62462e.png)
+
+We also needed to change the Spark connection. In *spark_default*, we did:
+
+![image](https://user-images.githubusercontent.com/81119854/145826306-ecb85a97-181a-4864-85fb-80376dd43898.png)
+
+In the field "Extra" above, we added the Spark folder path. 
