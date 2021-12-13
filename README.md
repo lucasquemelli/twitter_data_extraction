@@ -198,3 +198,13 @@ Finally, we obtained in transformed data folder (silver) a new folder with the "
 ![image](https://user-images.githubusercontent.com/81119854/145829680-abc1be74-9b8d-44df-b1b1-2227f6c54313.png)
 
 That means the automation process to transform data was successfully performed. Now, we may conclude our DAG. 
+
+# 11. DAG settings
+
+In this section, we **(1)** connected the operators and **(2)** had set the DAG execution frequency. 
+
+As we may see in the image below, the operators were not connected. This means they would be executed in parallel. 
+
+![image](https://user-images.githubusercontent.com/81119854/145856724-1cc499f6-3f0f-47c2-ba1c-18c1b67042bc.png)
+![image](https://user-images.githubusercontent.com/81119854/145856838-f7d8c13b-e0d1-479c-9a37-28aa6ef08897.png)
+
