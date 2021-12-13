@@ -180,3 +180,11 @@ We also needed to change the Spark connection. In *spark_default*, we did:
 ![image](https://user-images.githubusercontent.com/81119854/145826306-ecb85a97-181a-4864-85fb-80376dd43898.png)
 
 In the field "Extra" above, we added the Spark folder path. 
+
+
+
+![image](https://user-images.githubusercontent.com/81119854/145828678-371d0fdd-5238-42d2-a42f-f97ee07ed725.png)
+
+![image](https://user-images.githubusercontent.com/81119854/145828786-ac894b18-8553-49f3-93ee-19d61d8c016a.png)
+
+
