@@ -197,3 +197,4 @@ Finally, we obtained in transformed data folder (silver) a new folder with the "
 
 ![image](https://user-images.githubusercontent.com/81119854/145829680-abc1be74-9b8d-44df-b1b1-2227f6c54313.png)
 
+That means the automation process to transform data was successfully performed. Now, we may conclude our DAG. 
