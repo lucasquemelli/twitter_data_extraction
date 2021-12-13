@@ -181,13 +181,19 @@ We also needed to change the Spark connection. In *spark_default*, we did:
 
 In the field "Extra" above, we added the Spark folder path. 
 
-
+Then, we tested the task. Using "airflow dags list" command, we found the list of dags:
 
 ![image](https://user-images.githubusercontent.com/81119854/145828678-371d0fdd-5238-42d2-a42f-f97ee07ed725.png)
 
+The last one is *twitter_dag*, the one we used. To know the tasks of *twitter_dag*, we used "airflow tasks list twitter_dag" command:
+
 ![image](https://user-images.githubusercontent.com/81119854/145828786-ac894b18-8553-49f3-93ee-19d61d8c016a.png)
 
+We found two tasks: (1) transformation_twitter_aluraonline and (2) twitter_aluraonline. We tested the first task by doing:
+
 ![image](https://user-images.githubusercontent.com/81119854/145829565-a23c15e4-fe5d-4e6e-9ed7-3680130cac74.png)
+
+Finally, we obtained in transformed data folder (silver) a new folder with the "process_date" we chose/worked:
 
 ![image](https://user-images.githubusercontent.com/81119854/145829680-abc1be74-9b8d-44df-b1b1-2227f6c54313.png)
 
