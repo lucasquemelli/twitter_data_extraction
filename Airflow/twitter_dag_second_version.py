@@ -6,20 +6,8 @@ from os.path import join
 from airflow.models import DAG
 from airflow.operators.alura import TwitterOperator
 from airflow.contrib.operators.spark_submit_operator import SparkSubmitOperator
-from airflow.utils.dates import days_ago
 
-ARGS = {
-    "owner": "airflow",
-    "depends_on_past": False,
-    "start_date": days_ago(6)
-}
-
-TIMESTAMP_FORMAT = "%Y-%m-%dT%H:%M:%S.00Z"
-
-with DAG(dag_id="twitter_dag",
-         default_args=ARGS,
-         schedule_interval="0 9 * * *",
-         max_active_runs=1) as dag:
+with DAG(dag_id="twitter_dag", start_date=datetime.now()) as dag:
     twitter_operator = TwitterOperator(
         task_id = "twitter_aluraonline",
         query = "AluraOnline",
@@ -28,16 +16,6 @@ with DAG(dag_id="twitter_dag",
             "twitter_aluraonline",
             "extract_date={{ ds }}",
             "AluraOnline_{{ ds_nodash }}.json"
-        ),
-        start_time=(
-            "{{"
-            f"execution_date.stftime('{TIMESTAMP_FORMAT}')"
-            "}}"
-        ),
-        end_time=(
-            "{{"
-            f"next_execution_date.stftime('{TIMESTAMP_FORMAT}')"
-            "}}"
         )
     )
 
@@ -51,8 +29,6 @@ with DAG(dag_id="twitter_dag",
             "--dest",
             "/home/lucasquemelli/datapipeline/datalake/silver/twitter_aluraonline",
             "--process_date",
-            "{{ ds }}"
+            "{{ ds }}",
         ]
     )
-
-    twitter_operator >> twitter_transform
