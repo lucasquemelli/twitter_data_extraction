@@ -221,3 +221,5 @@ First we used the bronze layer to store the raw data, then we used silver layer 
 - We want to know the conversations in reply to @AluraOnline. In order to solve this problem, first we must know the @AluraOnline id, by doing:
 
 ![image](https://user-images.githubusercontent.com/81119854/146280000-1110d5a6-8b46-47d6-97c1-59c9e9830bed.png)
+
+Then, we created a task in python: [*insight_twitter.py*]().
