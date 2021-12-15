@@ -212,4 +212,6 @@ In the twitter dag third version ([*twitter_dag_third_version.py*](https://githu
 
 The final version of twitter dag - containing an overall file path - is found in [*twitter_dag_final_version*](https://github.com/lucasquemelli/twitter_data_extraction/blob/main/Airflow/twitter_dag_final_version.py).
 
+# 12. Data analysis
 
+First we used the bronze layer to store the raw data, then we used silver layer to store the transformed data, and now we are going to use the gold layer. Gold layer contains the business intelligence. In this layer, we stored data which helps the marketing team to understand twitter interactions. 
