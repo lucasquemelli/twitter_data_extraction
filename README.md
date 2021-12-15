@@ -212,7 +212,7 @@ In the twitter dag third version ([*twitter_dag_third_version.py*](https://githu
 
 The final version of twitter dag is found in [*twitter_dag_final_version*](https://github.com/lucasquemelli/twitter_data_extraction/blob/main/Airflow/twitter_dag_final_version.py). Below, the DAG with all of the tasks successfully executed:
 
-![image](https://user-images.githubusercontent.com/81119854/146244894-1d82c58d-17dc-438e-806a-b3b451dcfcf2.png)
+![image](https://user-images.githubusercontent.com/81119854/146245126-bd548897-e5a2-4525-b863-31213c799446.png)
 
 # 12. Data analysis
 
