@@ -205,11 +205,11 @@ In this section, we **(1)** connected the operators and **(2)** had set the DAG 
 
 The operators were not connected. This means they only would be executed in parallel. Yet, they must be connected to extract and export the data to the bronze folder and then transforming and exporting the data to the silver folder.
 
-In the twitter dag final version ([*twitter_dag_third_version.py*]()) file, they are already connected. The Graph and the Tree View of the DAG is below:
+In the twitter dag third version ([*twitter_dag_third_version.py*]()) file, they are already connected. The Graph and the Tree View of the DAG is below:
 
 ![image](https://user-images.githubusercontent.com/81119854/145858981-53191b16-eaf7-4e65-934c-d19080fb7347.png)
 ![image](https://user-images.githubusercontent.com/81119854/145859029-c581dae0-de92-403c-b138-8937b18aa80f.png)
 
-
+The final version of twitter dag - containing an overall file path - is found in [twitter_dag_final_version]().
 
 
