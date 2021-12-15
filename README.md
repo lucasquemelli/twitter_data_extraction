@@ -217,3 +217,7 @@ The final version of twitter dag is found in [*twitter_dag_final_version*](https
 # 12. Data analysis
 
 First we used the bronze layer to store the raw data, then we used silver layer to store the transformed data, and now we are going to use the gold layer. Gold layer contains the business intelligence. In this layer, we stored data which helps the marketing team to understand twitter interactions. 
+
+- We want to know the conversations in reply to @AluraOnline. In order to solve this problem, first we must know the @AluraOnline id, by doing:
+
+![image](https://user-images.githubusercontent.com/81119854/146280000-1110d5a6-8b46-47d6-97c1-59c9e9830bed.png)
