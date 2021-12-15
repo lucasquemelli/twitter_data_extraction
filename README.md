@@ -210,7 +210,9 @@ In the twitter dag third version ([*twitter_dag_third_version.py*](https://githu
 ![image](https://user-images.githubusercontent.com/81119854/145858981-53191b16-eaf7-4e65-934c-d19080fb7347.png)
 ![image](https://user-images.githubusercontent.com/81119854/145859029-c581dae0-de92-403c-b138-8937b18aa80f.png)
 
-The final version of twitter dag - containing an overall file path - is found in [*twitter_dag_final_version*](https://github.com/lucasquemelli/twitter_data_extraction/blob/main/Airflow/twitter_dag_final_version.py).
+The final version of twitter dag is found in [*twitter_dag_final_version*](https://github.com/lucasquemelli/twitter_data_extraction/blob/main/Airflow/twitter_dag_final_version.py). Below, the DAG with all of the tasks successfully executed:
+
+![image](https://user-images.githubusercontent.com/81119854/146244894-1d82c58d-17dc-438e-806a-b3b451dcfcf2.png)
 
 # 12. Data analysis
 
