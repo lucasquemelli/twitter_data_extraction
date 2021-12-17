@@ -222,4 +222,4 @@ First we used the bronze layer to store the raw data, then we used silver layer 
 
 ![image](https://user-images.githubusercontent.com/81119854/146280000-1110d5a6-8b46-47d6-97c1-59c9e9830bed.png)
 
-Then, we created a task in python: [*insight_twitter.py*]().
+Then, we created a task in python: [*insight_twitter.py*](). The final result may be accessed in [twitter insight](https://github.com/lucasquemelli/twitter_data_extraction/blob/main/datalake/gold/twitter_insight_tweet/twitter_insight.ipynb). 
