@@ -4,9 +4,9 @@
 
 # 1. Problem Description
 
-In this project, we created a **pipeline** using **Apache Airflow** to extract data from **Twitter** and hence **Apache Spark** to transform the data. The purpose was to analyze Twitter user **interactions**. The chosen pipeline was **ELT** format, since we want to save raw data before transforming them - to avoid errors.
+In this project, we created a **pipeline** using firstly **Apache Airflow** to extract data from **Twitter** and hence **Apache Spark** to transform the data. The purpose was to analyze Twitter user **interactions**. The chosen pipeline was **ELT** format, since we want to save raw data before transforming them - to avoid errors.
 
-The main idea of this project is to extract data from Twitter, such as tweets, retweets and likes. The purpose of extracting the data is to create an interaction analysis using Machine Learning to evaluate how positive are the tweets involving @AluraOnline on Twitter. 
+The main idea of this project was to extract data from Twitter, such as tweets, retweets and likes. The purpose of extracting the data is to create an interaction analysis to evaluate how positive are the tweets involving @AluraOnline on Twitter. 
 
 Alura is a Brazilian educational platform about technology. For further information about Alura, access their website: [Alura.](https://www.alura.com.br
 )
@@ -222,4 +222,4 @@ First we used the bronze layer to store the raw data, then we used silver layer 
 
 ![image](https://user-images.githubusercontent.com/81119854/146280000-1110d5a6-8b46-47d6-97c1-59c9e9830bed.png)
 
-Then, we created a task in python: [*insight_twitter.py*](). The final result may be accessed in [twitter insight](https://github.com/lucasquemelli/twitter_data_extraction/blob/main/datalake/gold/twitter_insight_tweet/twitter_insight.ipynb). 
+Then, we created a task in python: [*insight_twitter.py*](https://github.com/lucasquemelli/twitter_data_extraction/blob/main/Spark/insight_twitter.py). The final result with the extracted data may be accessed in [twitter insight](https://github.com/lucasquemelli/twitter_data_extraction/blob/main/datalake/gold/twitter_insight_tweet/twitter_insight.ipynb). 
