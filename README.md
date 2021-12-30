@@ -1,6 +1,6 @@
 # twitter_data_extraction
 
-<code><img width="100%" src="https://user-images.githubusercontent.com/81119854/144729803-43d738ab-fc1a-4dcb-8c6f-fa085cff82fd.png"></code>
+<code><img width="100%" src="https://github.com/lucasquemelli/twitter_data_extraction/blob/main/cover%20image/img-four.jpg"></code>
 
 # 1. Problem Description
 
